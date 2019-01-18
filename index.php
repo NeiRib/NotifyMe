@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
-
+   
         <!-- Estilos -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="estilos/main.css" type="text/css"> 
@@ -35,16 +35,16 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#services"><?php echo $menu1; ?></a>
+                            <a class="nav-link js-scroll-trigger" href="#"><?php echo $menu1; ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#portfolio"><?php echo $menu2; ?></a>
+                            <a class="nav-link js-scroll-trigger" href="#"><?php echo $menu2; ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about"><?php echo $menu3; ?></a>
+                            <a class="nav-link js-scroll-trigger" href="#"><?php echo $menu3; ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#team"><?php echo $menu4; ?></a>
+                            <a class="nav-link js-scroll-trigger" href="#"><?php echo $menu4; ?></a>
                         </li>
                     </ul>
                 </div>
@@ -66,20 +66,7 @@
              </li>
             
 
-            
-            <!--
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-                -->
+    
 
         </nav>
 
