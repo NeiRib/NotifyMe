@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+	background-color: black;
 }
 #mainNav.navbar-shrink {
     padding-top: 0;
@@ -34,4 +35,13 @@ body {
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
 }
