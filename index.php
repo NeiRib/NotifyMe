@@ -107,11 +107,15 @@ require_once('lang.php')
 						<table>
 							<thead>
 								<tr class="row100 head">
-									<th class="cell100 column1">Class name</th>
-									<th class="cell100 column2">Type</th>
-									<th class="cell100 column3">Hours</th>
-									<th class="cell100 column4">Trainer</th>
-									<th class="cell100 column5">Spots</th>
+									<th class="cell100 column1">
+										<?php echo $taula1; ?>
+									</th>
+									<th class="cell100 column2">
+										<?php echo $taula2; ?>
+									</th>
+									<th class="cell100 column3">
+										<?php echo $taula3; ?>
+									</th>
 								</tr>
 							</thead>
 						</table>
@@ -121,51 +125,15 @@ require_once('lang.php')
 						<table>
 							<tbody>
 								<tr class="row100 body">
-									<td class="cell100 column1">Like a butterfly</td>
-									<td class="cell100 column2">Boxing</td>
-									<td class="cell100 column3">9:00 AM - 11:00 AM</td>
-									<td class="cell100 column4">Aaron Chapman</td>
-									<td class="cell100 column5">10</td>
+									<td class="cell100 column1">Vidal i Barraquer</td>
+									<td class="cell100 column2">Tarragona</td>
+									<td class="cell100 column3">FP & Bat</td>
 								</tr>
 
 								<tr class="row100 body">
-									<td class="cell100 column1">Mind & Body</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Adam Stewart</td>
-									<td class="cell100 column5">15</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Crit Cardio</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">9:00 AM - 10:00 AM</td>
-									<td class="cell100 column4">Aaron Chapman</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Wheel Pose Full Posture</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">7:00 AM - 8:30 AM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">15</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Playful Dancer's Flow</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Zumba Dance</td>
-									<td class="cell100 column2">Dance</td>
-									<td class="cell100 column3">5:00 PM - 7:00 PM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">20</td>
+									<td class="cell100 column1">Baix Camp</td>
+									<td class="cell100 column2">Reus</td>
+									<td class="cell100 column3">FP & Bat</td>
 								</tr>
 
 							</tbody>
@@ -181,9 +149,15 @@ require_once('lang.php')
 
 	<!-- Footer -->
 	<footer class="footer-distributed">
-
+		
+		
+		
 		<div class="footer-right">
 
+			<img src="http://websalpunt.cat/wp-content/uploads/2013/10/puntcat.png" alt="Webs Al Punt" class="websalpunt">
+			<img src="http://websalpunt.cat//wp-content/uploads/2013/09/dinahosting.jpg" alt="Dinahosting" class="dinahosting">
+			
+			
 			<a href="#"><i class="fa fa-facebook"></i></a>
 			<a href="#"><i class="fa fa-twitter"></i></a>
 			<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -212,7 +186,9 @@ require_once('lang.php')
 			</p>
 
 			<p>NotifyMe &copy; 2018</p>
+			
 		</div>
+		
 
 	</footer>
 

@@ -45,3 +45,11 @@ footer{
 	footer { position: static; }
 	header { padding-top:40px; }
 }
+.websalpunt {
+	height: 100px;
+	box-sizing: border-box;
+}
+.dinahosting {
+	height: 80px;
+	box-sizing: border-box;
+}
